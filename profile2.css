@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding:0px;
+}
+
+
+.container {
+  position: relative;
+  color: white;
+  margin:0px 0px 0px 0px;
+}
+
+.l{
+  font-size: 60px;
+  color: red;
+  left: 40px;
+  top: 30px;
+  position: absolute;
+}
+
+
+
+
+.top-left {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size:50px;
+  
+}
+
+
+.top-left1 {
+  position: absolute;
+  top: 200px;
+  left: 800px;
+  font-size:100px;
+  
+}
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 1349px;
+  
+
+}
+
+.navbar a {
+  float: right;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 60px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 212.5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.lol{
+	width: 1349px;
+	height: auto;
+	background-color:#e6e6e6;
+	float: left;
+	
+}
+
+.cute{
+  width: 1349px;
+	height: 1058px;
+	background-color:#e6e6e6;
+	float: left;
+
+}
+
+.haha{
+	width:  800px;
+	height: 500px;
+	float: left;
+	
+}
+
+.cute1{
+	width: 549px;
+	float: left;
+	height: 500px;
+}
+
+.v{
+  width: 1349px;
+  background-color:#ff6666;
+  float: left;
+}
+
+
+
+.v a:hover{
+  color: green;
+  background-color: black;
+}
+
+.v input:hover{
+  background-color:rgba(255, 255, 255, 0.863);
+}
+
+.v textarea:hover{
+  background-color:rgba(255, 255, 255, 0.863);
+}
+
+.r{
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  color: white;
+  background-color: black;
+  height: auto;
+  width: 1349px;
+  padding: 4px;
+  margin-top: 0px;
+  float: left;
+  }
+
+  

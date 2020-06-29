@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding:0px;
+}
+
+
+.container {
+  position: relative;
+  color: white;
+  margin:0px 0px 0px 0px;
+}
+
+
+
+
+.top-left {
+  position: absolute;
+  top: 80px;
+  left: 165x;
+  font-size:50px;
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 1349px;
+}
+
+.navbar a {
+  float: right;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 25px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 60px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 212.5px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.vikas{
+	width:1349px; 
+	height:auto; 
+	float:left;
+	
+	
+}
+
+.hi{
+	float:right;
+	background-color:#ff3333;
+	color:white;
+	font-size:25px;
+	width:809px;
+	height:570px;
+	padding: 10px 20px;
+}
+
+footer {
+  width: 1349px;
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  
+  
+}
+
+.myself{
+	width: 1349px;
+	height: 1058px;
+	background-color:#e6e6e6;
+	float: left;
+
+}
+
+.about-me{
+	width:  800px;
+	height: 500px;
+	float: left;
+	
+}
+
+.me{
+	width: 520px;
+	float: left;
+	height: 500px;
+}
+
+.v{
+  width: 1349px;
+  background-color:#ff6666;
+  float: left;
+}
+
+.m {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.m1:hover .m{
+  background-color: red;
+}
+
+
+
